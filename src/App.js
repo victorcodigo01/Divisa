@@ -23,8 +23,8 @@ function App() {
         <Container>
           <Navbar.Brand href="#home">Victor Divisa IT</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="/Usuarios">Usuarios</Nav.Link>
-            <Nav.Link href="/Comentarios">Comentarios</Nav.Link>
+            <Nav.Link href="/usuarios">usuarios</Nav.Link>
+            <Nav.Link href="/comentarios">comentarios</Nav.Link>
             
           </Nav>
         </Container>
@@ -37,8 +37,8 @@ function App() {
         <Routes>
          
           
-          <Route path="/Usuarios" element={<Madrid />} />
-          <Route path="/Comentarios" element={<Comentarios />} />
+          <Route path="/usuarios" element={<Madrid />} />
+          <Route path="/comentarios" element={<Comentarios />} />
 
          
         </Routes>
