@@ -4,11 +4,13 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
 
+
 function Comentarios () {
   const [comentarios, setComentarios] = useState([]);
 
     useEffect(() => {
         //
+        
         
           fetch(
             `https://jsonplaceholder.typicode.com/comments`,
